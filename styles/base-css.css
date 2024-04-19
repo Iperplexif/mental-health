@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Libre Franklin', 'sans-serif';
+    font-optical-sizing: auto;
+    color: black;
+    color: #fcfcfc;
+    font-size: 18px;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4, h5, h6, p {
+    font-size: 1em;
+}
+
+img {
+    padding: 0.5em;
+    border-radius: 5px;
+    object-fit: contain;
+    object-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+a:hover {
+    color: #e4e2e2;
+}
+
+a:focus {
+    color: #e4e2e2;
+}
+
+.articles {
+    font-size: 1.125em;
+}
+
+.foot-sec {
+    color: #fcfcfcdd;
+    padding: 0.75em 0.5em;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+
+    height: 3em;
+    width: 100%;
+    background-color: #1f437d;
+    z-index: 5;
+    border-bottom: 2.5px solid #19356381;
+
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.font-size-2em {
+    font-size: 2em;
+}
+
+#nav-title {
+
+}
+
+#nav-links-1 { 
+    
+}
+
+#nav-links-2 {
+       
+}
+
+#nav-title {
+    display: flex;
+}
+
+.nav-links {
+    width: 20em;
+    display: flex;
+    align-items: center;
+    padding-left: 0.25em;
+}
+
+.nav-links a {
+    width: 5em;
+    padding: 0em 1em;
+    margin: 0px 0em;
+    height: 3em;
+    text-wrap: nowrap;
+    text-decoration: none;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+
+}
+
+.nav-links a:hover {
+    background-color: #0c0c0c1b;
+}
+
+.nav-links a:focus {
+    background-color: #0c0c0c1b;
+}
+
+#nav-title a {
+    padding: 0px 0em;
+    margin: 0px 0em; 
+    height: 3em;
+    width: 12.5em;
+    flex-grow: 4;
+    text-wrap: nowrap;
+    text-decoration: none;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+#nav-title a:hover {
+    background-color: #0c0c0c1b;
+}
+
+#nav-title a:focus {
+    background-color: #0c0c0c1b;
+}
+
+.nav-links a p {
+    font-weight: 500;
+    text-align: center;
+    color: #fafbfe;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#nav-title a p {
+    font-family: "Merriweather", serif;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.75em;
+    color: #f0f3f9;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    top: 50%;
+
+    border-right: 2.5px solid #fcfcfcb0;
+
+    transform: translate(0%, -50%);
+}
+
+#nav-links-2 {
+    color: #fafbfe00;
+    align-content: flex-end;
+}
+
+#nav-links-cont {
+    display: flex;
+    width: calc(100% - 12.5em)
+}
+
+#nav-links-cont div {
+    flex-grow: 1;
+}
+
+.section-1 {
+
+}
+
+.section-2 {
+    position: relative;
+    top: calc(20em + 20em + 0.75em + 5.75em);
+    padding: 2.5em calc((1 / 6) * 100vw);
+    color: #0c0c0c;
+}
+
+.section-2 a{
+    color: #7f6bc9;
+}
+
+.section-2 a:hover{
+    color: #6f5daf;
+}
+
+.section-2 a:focus{
+    color: #6f5daf;
+}
+
+#intro-sec {
+    height: 25.25em;
+    background-color: #abcbff70;
+}
+
+#intro-sec-tit {
+    text-align: center;
+}
+
+#GithubSign-1 {
+    position: absolute;
+    text-wrap: nowrap;
+    text-align: right;
+    -webkit-transition: width 1s ease, color 0.5s linear;
+    -moz-transition: width 1s ease, color 0.5s linear;
+    -o-transition: width 1s ease, color 0.5s linear;
+    -ms-transition: width 1s ease, color 0.5s linear;
+    transition: width 1s ease, color 0.5s linear;
+}
+
+.GithubSignHover {
+    color: #fafbfe;
+    width: calc((100% - 12.5em) / 2 - 3em);
+}
+
+.GithubSignHoverOut {
+    width: calc((100% - 12.5em) / 2 - 5em);
+}
+
+.github-corner {
+    z-index: 6;
+}
+
+#footer-sec {
+    background-color: #17325e;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 23em;
+    width: 100%;
+    top: calc(20em + 20em + 0.75em + 3.5em + 22.5em + 10em);
+    border-top: 5px solid #19356381;
+}
+
+#footer-sec a {
+    text-decoration: underline;
+}
+
+#footer-sec section {
+    width: calc((1/3) * 100% - 0.5em);
+    margin: 0px 0.25em;
+    height: 100%;
+    display: flex;
+    color: #fcfcfc;
+    text-align: center;
+}
+
+#footer-sec-lef {
+    background-color: #153569;
+    flex-direction: row;
+    font-size: 1.125em;
+}
+
+#footer-sec-cen {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.125em;
+}
+
+#footer-sec-rig {
+    background-color: #153569;
+    flex-direction: row;
+    font-size: 1.125em;
+}
+
+.footer-lefrig-sec {
+    width: 50%;
+    margin: 0em 0.25em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25em;
+}
+
+#footer-sec-lef-rig {
+    position: relative;
+    left: calc(50% - 1em);
+}
+
+#footer-sec-cen-1 {
+    margin: 0em 0.25em;
+    width: 90%;
+    height: 5em;
+    font-size: 2.5em;
+
+    border-bottom: 2.5px solid #fcfcfcb0;
+}
+
+
+#footer-sec-cen-2 {
+    margin: 0.25em 0.25em;
+    width: 90%;
+    height: calc(15em );
+}
+
+.foot-sec {
+    color: #fcfcfcdd;
+    padding: 0.75em 0.5em;
+}
+
