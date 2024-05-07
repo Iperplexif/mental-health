@@ -53,6 +53,9 @@
                         <p class="title-tile-quot merriweather-regular">This is a website where you can find advice on Mental Health.</p>
                     </section>
                     <section class="title-sec-tile title-small-div-med" id="title-tile-2">
+                        {% for page in site.pages %}
+                            <a href={{ page.filename }}>{{ page.title }}</a>
+                        {% endfor %}
                         <p class="title-tile-quot merriweather-light-italic font-size-2em"><a href="subpages/what-is-mental-health.html">&darr;<br>What is it even?</a></p>
                     </section>
                 </div>
