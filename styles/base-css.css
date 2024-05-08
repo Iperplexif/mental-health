@@ -218,7 +218,6 @@ a:focus {
 }
 
 .section-2 {
-    margin-top: 3em;
     position: relative;
     padding: 2.5em calc((1 / 6) * 100vw);
     color: #0c0c0c;
@@ -234,6 +233,10 @@ a:focus {
 
 .section-2 a:focus{
     color: #6f5daf;
+}
+
+#first-sec {
+    margin-top: 3em;
 }
 
 #intro-sec-launchp {
