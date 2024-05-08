@@ -219,7 +219,6 @@ a:focus {
 
 .section-2 {
     position: relative;
-    top: calc(20em + 20em + 0.75em + 5.75em);
     padding: 2.5em calc((1 / 6) * 100vw);
     color: #0c0c0c;
 }
@@ -236,13 +235,18 @@ a:focus {
     color: #6f5daf;
 }
 
-#intro-sec {
+#intro-sec-launchp {
+    top: calc(20em + 20em + 0.75em + 5.75em);
     height: 25.25em;
     background-color: #abcbff70;
 }
 
 #intro-sec-tit {
     text-align: center;
+}
+
+.citations {
+    background-color: #6c7d95;
 }
 
 #GithubSign-1 {
