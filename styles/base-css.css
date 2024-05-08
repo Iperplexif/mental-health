@@ -218,6 +218,7 @@ a:focus {
 }
 
 .section-2 {
+    margin-top: 3em;
     position: relative;
     padding: 2.5em calc((1 / 6) * 100vw);
     color: #0c0c0c;
