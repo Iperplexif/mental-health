@@ -27,6 +27,30 @@ h4, h5, h6, p {
     font-size: 1em;
 }
 
+.title-font-size{ 
+    font-size: 2.5em;
+}
+
+.subtitle-font-size{
+    font-size: 2em;
+}
+
+.subsubtitle-font-size{
+    font-size: 1.75em;
+}
+
+.article-font-size{ 
+    font-size: 2.5em;
+}
+
+.title-font-size{ 
+    font-size: 2.5em;
+}
+
+.title-font-size{ 
+    font-size: 2.5em;
+}
+
 img {
     padding: 0.5em;
     border-radius: 5px;
@@ -56,6 +80,20 @@ a:focus {
     padding: 0.75em 0.5em;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#citations-list div {
+    width: 50%;
+}
+
 .nav {
     position: fixed;
     display: flex;
@@ -65,7 +103,8 @@ a:focus {
     background-color: #1f437d;
     z-index: 5;
     border-bottom: 2.5px solid #19356381;
-
+    top: 0em;
+    left: 0px;
 }
 
 .merriweather-light {
@@ -214,10 +253,11 @@ a:focus {
 }
 
 .section-1 {
-
+    position: relative;
 }
 
 .section-2 {
+    background-color: #abcbff70;
     position: relative;
     padding: 2.5em calc((1 / 6) * 100vw);
     color: #0c0c0c;
@@ -236,11 +276,10 @@ a:focus {
 }
 
 #first-sec {
-    margin-top: 3em;
+    margin-top: calc(3em);
 }
 
 #intro-sec-launchp {
-    top: calc(20em + 20em + 0.75em + 5.75em);
     height: 25.25em;
     background-color: #abcbff70;
 }
@@ -250,7 +289,11 @@ a:focus {
 }
 
 .citations {
-    background-color: #6c7d95;
+    display: flex;
+    flex-direction: column;
+    color: #fcfcfc;
+    border-top: 5px solid #372966;
+    background-color: #3e3070;
 }
 
 #GithubSign-1 {
@@ -279,12 +322,11 @@ a:focus {
 
 #footer-sec {
     background-color: #17325e;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     height: 23em;
     width: 100%;
-    top: calc(20em + 20em + 0.75em + 3.5em + 22.5em + 10em);
     border-top: 5px solid #19356381;
 }
 
@@ -351,5 +393,10 @@ a:focus {
 .foot-sec {
     color: #fcfcfcdd;
     padding: 0.75em 0.5em;
+}
+
+#citations-title h2 {
+    width: 100%;
+    margin: 0.25em 0px;
 }
 

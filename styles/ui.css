@@ -1,6 +1,6 @@
 
 #title-sec {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     height: calc(3em + 1em + 20em + 0.5em + 20em + 2em);

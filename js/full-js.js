@@ -8,7 +8,6 @@ let GitHubCatinCorner = document.querySelector("github-corner").shadowRoot;
 let GitHubCatinTheCorner = GitHubCatinCorner.lastChild;
 
 let GithubSVG = GitHubCatinTheCorner.querySelector("svg");
-console.log(GithubSVG);
 
 async function GithubSign (event) {
     let start = Date.now();
@@ -16,12 +15,10 @@ async function GithubSign (event) {
     if (event.type == 'mouseenter') {
         document.getElementById("GithubSign-1").classList.add("GithubSignHover");
         document.getElementById("GithubSign-1").classList.remove("GithubSignHoverOut");
-        console.log("in!");
       }
       if (event.type == 'mouseout') {
         document.getElementById("GithubSign-1").classList.remove("GithubSignHover");
-        document.getElementById("GithubSign-1").classList.add("GithubSignHoverOut");
-        console.log("out!");  
+        document.getElementById("GithubSign-1").classList.add("GithubSignHoverOut");  
         
     }
 }
