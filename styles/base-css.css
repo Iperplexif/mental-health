@@ -365,11 +365,11 @@ a:focus {
 
 .GithubSignHover {
     color: #fafbfe;
-    width: calc((100% - 12.5em) / 2 - 3em);
+    width: calc(100% - 36em);
 }
 
 .GithubSignHoverOut {
-    width: calc((100% - 12.5em) / 2 - 5em);
+    width: calc(100% - 39em);
 }
 
 .github-corner {
