@@ -167,6 +167,7 @@ a:focus {
 
 .nav-links div {
     align-items: center;
+    -webkit-box-align: center;
     width: 5em;
     padding: 0em 1em;
     margin: 0px 0em;
@@ -280,6 +281,7 @@ a:focus {
     width: 100%;
     height: 2em;
     text-align: left;
+    -webkit-box-align: left;
     border-radius: 5px;
     padding-left: 10px;
 
@@ -342,6 +344,7 @@ a:focus {
 
 #intro-sec-tit {
     text-align: center;
+    -webkit-box-align: center;
 }
 
 .citations {
@@ -409,6 +412,7 @@ a:focus {
 #footer-sec-cen {
     flex-direction: column;
     align-items: center;
+    -webkit-box-align: center;
     font-size: 1.125em;
 }
 
