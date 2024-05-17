@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../assets/great-vibes.regular.ttf');
+}
+
 body {
     font-family: 'Libre Franklin', 'sans-serif';
     font-optical-sizing: auto;
@@ -28,7 +33,7 @@ h4, h5, h6, p {
 }
 
 .title-font-size{ 
-    font-size: 2.5em;
+    font-size: 3.6em;
 }
 
 .subtitle-font-size{
@@ -40,15 +45,7 @@ h4, h5, h6, p {
 }
 
 .article-font-size{ 
-    font-size: 2.5em;
-}
-
-.title-font-size{ 
-    font-size: 2.5em;
-}
-
-.title-font-size{ 
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 img {
@@ -135,6 +132,11 @@ a:focus {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
+}
+
+.great-vibes {
+    font-family: "Great Vibes";
+    font-weight: 200;
 }
 
 .font-size-2em {
@@ -257,7 +259,7 @@ a:focus {
 
 #nav-drop{
     position: relative;
-    top: 60%;
+    top: calc(60% - 1px);
     left: -20%;
     width: 500%;
     height: 0px;
@@ -298,8 +300,12 @@ a:focus {
 
 #nav-button:hover #nav-drop{
     box-shadow: 0px 5px 5px 1px #0c0c0c;
-    height: calc((1em * 5) + 110px);
+    height: calc((1em * 6) + 130px);
+}
 
+#nav-button:focus #nav-drop{
+    box-shadow: 0px 5px 5px 1px #0c0c0c;
+    height: calc((1em * 6) + 130px);
 }
 
 .section-1 {
@@ -375,13 +381,14 @@ a:focus {
     position: relative;
     display: flex;
     flex-direction: row;
-    height: 23em;
+    height: 20em;
     width: 100%;
     border-top: 5px solid #19356381;
 }
 
 #footer-sec a {
     text-decoration: underline;
+    margin: 5px 0px;
 }
 
 #footer-sec section {
