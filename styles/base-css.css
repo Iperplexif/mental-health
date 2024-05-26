@@ -68,6 +68,20 @@ a:focus {
     color: #e4e2e2;
 }
 
+button {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+button:hover {
+    color: #e4e2e2;
+}
+
+button:focus {
+    color: #e4e2e2;
+}
+
 .articles {
     font-size: 1.125em;
 }
@@ -380,7 +394,7 @@ a:focus {
 #survey-arrow{
     position: relative;
     left: 10em;
-    top: calc(-6.5em - 9px);
+    top: calc((-6.5em) - 9px);
     width: 2em;
     height: 3em;
     background-color: #345a97;
@@ -420,6 +434,10 @@ a:focus {
 }
 
 #survey:hover {
+    left: 5px;
+}
+
+#survey:focus {
     left: 5px;
 }
 
