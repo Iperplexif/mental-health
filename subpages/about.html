@@ -15,6 +15,8 @@
 
         <!-- <base href="https://example.com/page.html"> base link for all recources used (so you can use relative links)-->
         <link rel="stylesheet" href="../styles/base-css.css"> <!-- CSS (Cascading Style Sheet) --><!-- To implement different libraries, like jQuery. -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
         <script src="https://unpkg.com/github-corner-element"></script>
     </head>
 
@@ -68,35 +70,33 @@
             </div>
         </nav>
        
+        <div class="survey-open survey-collapsed" id="survey">
+            <div id="survey-content">
+                <p><b>Survey</b></p>
+                <p>Would you like to take some time to answer my Google Form?</p>
+                <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSdL3oigfoYBJjwtsIZ1_BmxoBi6PPq0ebF1ps9ohOlzrut6tA/viewform">Answer Here.</a></div>
+            </div>
+            <div id="survey-arrow">
+                <i class="material-icons" style="font-size:24px">arrow_forward</i>
+            </div>
+        </div>  
+
         <section class="section-2" id="first-sec">
             <article class="articles">
                 <h2 id="intro-sec-tit">About</h2>
-                <p>This website is about...</p>
+                <h5 id="intro-sec-tit">By Munachiso Onwusogh</h5>
+                <p>This website is about putting into perspective how a cause can have an impact on society. This is the promotion of good mental health. In relation to you, the target audience, the teenagers of ISH, this text is to highlight this. Essentially, I have written a few articles regarding topics related to mental health, things you can do for yourself, and various causes surrounding this problem–which many of us may deal with on a daily basis. You can click on any of the links at the footer or search bar.
+                    <br> <br>
+                    I’ve taken quite a bit of time to write all of these texts up, I mainly aim for ~1000 words when writing each article. Please, take your time to read them.
+                    
+                    In the corner, you can click to complete my survey over this subject, but you might need to scour some of the information to find what you need to answer the question. They’re extremely helpful in helping me develop my web development skills.
+                    </p>
+                    <h4>About the Website</h4>
+                    <p>The website is run on a GitHub page, in which you can look at my code by clicking the small cat in the corner. It’s a service in which you can host webpages for your own repository in order to introduce it to people, but generally, you can also serve up utilities to people, or skip the cost of the knowledge and hardware needing to manage a website–it makes it very simple to use. I also used Visual Studio Code as my main text editor. I also tested the webpages using Google Chrome Browser by dragging and dropping the file into the search bar.
+                    
+                    I decided to use a GitHub page instead of Google Apps Script because you don’t have to deal with the caveats of where you’re putting your code. Visual Studio Code integrates source control into it, including the use of GitHub–so making updates was very easy. (And I can also change the webpage in very short wait times if there needs to be made corrections.)
+                    </p>
             </article>
-        </section>
-
-        <section class="section-2 citations">
-            <div id="citations-title">
-                <h2>Citations:</h2>
-            </div>
-
-            <div class="flex-row" id="citations-list">
-                <div class="articles">
-                    <ul>
-                        <li>Coffee</li>
-                        <li>Tea</li>
-                        <li>Milk</li>
-                      </ul>
-                </div>
-
-                <div class="articles">
-                    <ul>
-                        <li>Coffee</li>
-                        <li>Tea</li>
-                        <li>Milk</li>
-                      </ul>
-                </div>
-            </div>
         </section>
 
         <footer class="footer" id="footer-sec">
