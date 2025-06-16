@@ -1,2 +1,2 @@
-# Mental Health & Abuse (Bullying)
-Repository for a cause. (To use github pages to host a website.)
+# Corona Pop | Company Website (for consumers and business owners) Homepage
+7 June 2025
